@@ -6,4 +6,10 @@ class Dog
   def name 
     this_dogs_name
   end
+  def bark(dog_instance)
+    puts "Woof!"
+  end
 end
+
+fido = Dog.new 
+fido = name
